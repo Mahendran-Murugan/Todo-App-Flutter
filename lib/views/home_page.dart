@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
   }
 
-  void checkBoxChanged(bool? value, int index) {
+  void checkBoxChanged(bool? xvalue, int index) {
     setState(() {
       db.toDoList[index][1] = !db.toDoList[index][1];
     });

@@ -20,7 +20,7 @@ class TodoTile extends StatelessWidget {
       padding: const EdgeInsets.only(top: 25, left: 25, right: 25),
       child: Slidable(
         endActionPane: ActionPane(
-          motion: StretchMotion(),
+          motion: const StretchMotion(),
           children: [
             SlidableAction(
               borderRadius: BorderRadius.circular(10),
